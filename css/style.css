@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+                      /*      Header Section      */
+
+#header{
+  background: url(../images/bannerbg.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+#header .navbar .navbar-nav .nav-link{
+  color: white !important;
+  font-size: 22px;
+  font-weight: 500;
+  padding-right: 20px;
+  text-align: center;
+  transition: color 0.4s ease 0s;
+}
+.col-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} 
+#header .navbar .navbar-nav .active {
+  color: #e58f00 !important;
+}
+#header .collapse{
+  text-align: right;
+}
+#header .navbar .navbar-nav .nav-link:hover{
+  color: #e58f00 !important;
+}
+.navbar-toggler{
+  border: none;
+  color: #fff !important;
+}
+#header i{
+  color: #fff !important;
+}
+
+
+                      /*     End  Header Section      */
+
+                      /*      Banner Section      */
+
+#banner{
+  background: url(../images/bannerbg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#banner .container .row .col-lg-6 h1{
+  color: #e58f00;
+  font-size: 66px;
+}
+#banner .container .row .col-lg-6 p{
+  color: #ffffff;
+  font-size: 25px;
+}
+#banner .container .row .col-lg-6 .btn{
+  color: #28282d;
+  background: #e58f00;
+  font-weight: 800;
+  border-color: #e58f00;
+  font-size: 25px;
+  padding: 10px 30px;
+  border: none;
+  transition: background 0.5s ease 0s;
+}
+#banner .container{
+  padding: 115px 0;
+}
+#banner .container .row .col-lg-6 h1,p,.btn{
+  margin-top: 20px;
+}
+#banner .container .row .col-lg-6 .btn:hover{
+  background: #fff;
+}
+
+                      /*      End Banner Section      */
+
+
+                      /*      About us Section      */
+
+#about{
+  background: #1d1d23;
+}
+#about .row{
+  padding: 120px 0;
+}
+#about h1{
+  font-size: 50px;
+  color: #ffffff;
+  padding-top: 12%;
+}
+#about p{
+  font-size: 28px;
+  color: #ffffff;
+}
+
+
+                      /*      End About us Section      */
+
+
+                      /*      Quality Section      */
+
+
+#quality .container-fluid .row .img1 {
+  padding: 0;
+  /*margin-right: 50% !important;*/
+  position: absolute;
+  right: -3%;
+}
+#quality {
+  background: #1d1d23;
+  overflow-x: hidden; 
+  padding-bottom: 20px;
+}
+#quality .org-img{
+  background: url(../images/org.png) no-repeat transparent;
+  background-position: center;
+  height: 1840px;
+  width: 100%;
+  position: relative;
+}
+#quality .coltext{
+  position: absolute;
+  color: #fff;
+  padding: 20px;
+  top: 20%;
+  left: 5%;
+  width: 100%;
+}
+#quality .coltext h1{
+  font-size: 50px;
+}
+#quality .coltext p{
+  font-size: 20px;
+}
+#quality .colimg{
+  position: absolute;
+  right: -5%;
+  bottom: 3%;
+  padding: 0;
+  margin: 0;
+}
+#quality .img3{
+  position: absolute;
+  bottom: 13%;
+  left: -3%;
+}
+
+
+                      /*      End Quality Section      */
+
+
+
+                      /*      Gallery Section      */
+
+#gallery{
+  background: #1d1d23;
+  padding: 50px 0 70px 0;
+}
+#gallery .row{
+  padding-top: 30px;
+}
+#gallery h1{
+  font-size: 50px;
+  padding: 20px 0;
+  color: #fff;
+}
+
+                      /*      End Gallery Section      */
+
+
+                      /*      Enjoy Section      */
+
+#enjoy{
+  background: url(../images/tipsbg.png) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: auto;
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#enjoy .container {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  border: 3px solid #e58f00;
+  background-color: rgba(31, 31, 37, 0.8);
+}
+#enjoy .container h1{
+  font-size: 50px;
+}
+#enjoy .container p{
+  font-size: 20px;
+}
+#gallery .row .col-lg-4{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#gallery .row{
+  width: 100%;
+}
+
+                      /*      End Enjoy Section      */
+
+
+                      /*      Menu Section      */
+
+#menu{
+  background: #1d1d23;
+  padding: 50px 0;
+}
+#menu h1{
+  padding: 50px 0 40px 0;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+}
+#menu h2{
+  font-size: 21px;
+  color: #e58f00;
+  padding: 10px 0 5px 0;
+  font-weight: 800;
+}
+#menu p{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+#menu .price{
+  font-size: 20px;
+  color: #e58f00;
+  font-weight: 800;
+}
+
+                      /*      End Menu Section      */
+
+
+                      /*      Meal Section      */
+
+#meal .container-fluid {
+  background: #e58f00;
+}
+#meal .container-fluid{
+  position: relative;
+}
+#meal .container-fluid {
+ 
+}
+#meal {
+  height: auto;
+  width: 100%;
+}
+#meal .container-fluid .col-lg-5, .col-lg-7{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}  
+
+#meal h1{
+  font-size: 60px;
+  font-weight: 800;
+  color: #fff;
+}
+#meal p{
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+}
+                      /*      End Meal Section      */
+
+
+                      /*      Footer Section      */
+
+#footer{
+  padding: 50px 0;
+  background: #35353b;
+}
+#footer .div a{
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.5s ease ;
+}
+#footer .div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0 30px 0;
+}
+#footer .div-2 i{
+  background: #fff;
+  color: #000;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: all 0.4s ease 0s;
+}
+#footer .div-2 i:hover{
+  background: #e58f00;
+  color: #fff;
+  cursor: pointer;
+}
+#footer .div-2 .fa-facebook-f{
+  padding: 10px 13.5px;
+}
+#footer .div-2 {
+  text-align: center;
+  padding-top: 10px;
+
+}
+#footer .div a:hover{
+  color: #e58f00;
+}
+                      /*      End Footer Section      */
+
+
+
+
+                      /*      Media Section      */
+
+
+
+                      /*      Tablate and small screen laptops      */
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  #header .collapse{
+    font-size: 25px;
+  }
+  #banner .container .row .col-lg-6 h1{
+    font-size: 35px;
+  }
+  #banner .container .row .col-lg-6 p{
+    font-size: 15px;
+  }
+  #banner .container .row .col-lg-6 .btn {
+    font-size: 20px;
+    padding: 7px 23px;
+    margin-top: 10px;
+  }
+  #banner .container .row .col-lg-6 h1, p, .btn {
+    margin-top: 10px;
+  }
+  #about h1 {
+    font-size: 40px;
+    padding-top: 10%;
+  }
+  #about p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  #quality .container-fluid .row .img1 {
+  padding: 0;
+  /*margin-right: 50% !important;*/
+  position: absolute;
+  right: -3%;
+  top: 3%;
+  }
+  #quality .coltext h1 {
+    font-size: 40px;
+  }
+  #quality .coltext p {
+    font-size: 14px;
+  }
+  #quality .coltext {
+    position: absolute;
+    color: #fff;
+    padding: 0px;
+    top: 30%;
+    left: 10%;
+    width: 100%;
+  }
+  #quality .colimg{
+  position: absolute;
+  right: -2%;
+  bottom: 18%;
+  padding: 0;
+  margin: 0;
+  }
+  #quality .img3{
+  position: absolute;
+  bottom: 15%;
+  left: -2%;
+  }
+  #gallery h1{
+  font-size: 40px;
+  padding: 20px 0;
+  color: #fff;
+  }
+  #enjoy .container h1{
+  font-size: 35px;
+  }
+  #enjoy .container p{
+  font-size: 14px;
+  }
+  #menu h1{
+  font-size: 40px;
+  }
+  #menu h2{
+  font-size: 18px;
+  }
+  #menu p{
+  font-size: 10px;
+  }
+  #menu .price{
+  font-size: 18px;
+  }
+  #meal h1{
+  font-size: 40px;
+  }
+  #meal p{
+  font-size: 18px;
+  }
+  #footer .div a {
+    padding: 0px 12px;
+    font-size: 18px;
+  }
+}
+
+                      /*      Tablates and small screen laptops      */
+
+
+                      /*      Small devices      */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #banner .container .row .col-lg-6 h1, p, .btn {
+    margin-top: 20px;
+    text-align: left;
+  }
+  #banner .container .row .col-lg-6 h1 {
+    font-size: 35px;
+  }
+  #banner .container .row .col-lg-6 p {
+    font-size: 18px;
+  }
+  #banner .sm-text{
+    padding-top: 30px;
+  }
+  #banner .container{
+    padding: 80px 0;
+  }
+  #about .row{
+    padding: 50px 0;
+  }
+  #about p {
+    font-size: 18px;
+  }
+  #about h1 {
+    font-size: 44px;
+    padding-top: 12%;
+  }
+  .img1 {
+    max-width: 50%;
+    height: auto;
+  }
+  .img3{
+    max-width: 85%;
+    height: auto;
+  }
+  #quality .coltext h1 {
+    font-size: 45px;
+  }
+  #quality .coltext p {
+    font-size: 16px;
+  }
+  #quality .container-fluid .row .img1 {
+  padding: 0;
+  /*margin-right: 50% !important;*/
+  position: absolute;
+  right: -3.5%;
+  top: 3%;
+  }
+  #quality .coltext {
+    position: absolute;
+    color: #fff;
+    padding: 0px;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  #quality .colimg{
+  position: absolute;
+  right: -2%;
+  bottom: 28%;
+  padding: 0;
+  margin: 0;
+  }
+  #quality .img3{
+  position: absolute;
+  bottom: 9%;
+  left: -5%;
+  }
+  #gallery h1 {
+    font-size: 40px;
+  }
+  #gallery .col-sm-12{
+    padding: 5px 10px;
+  }
+  #gallery .row {
+    padding-top: 5px;
+  }
+  #enjoy{
+  height: auto;
+  width: 100%;
+  min-height: 350px;
+}
+#enjoy .container {
+  width: 80%;
+  height: auto;
+  border: 3px solid #e58f00;
+  padding: 10px;
+}
+#enjoy .container h1{
+  font-size: 30px;
+}
+#enjoy .container p{
+  font-size: 14px;
+  text-align: justify;
+}
+#menu h1 {
+  font-size: 40px;
+}
+#menu .col-sm-12{
+  padding: 20px 0 0 0;
+  text-align: left;
+}
+#meal h1{
+  font-size: 40px;
+  padding-top: 30px;
+}
+#meal p{
+  font-size: 18px;
+}
+#footer .div a {
+    padding: 0px 1%;
+    font-size: 12px;
+}
+.navbar{
+  padding: 0 30px !important;
+}
+#gallery .container {
+  padding: 0;
+}
+#gallery .container .row .col-lg-4{
+  
+}
+#gallery .container{
+  margin: 0 auto;
+}
+}
+
+                      /*      Small devices      */
+
+
